@@ -1,9 +1,11 @@
+@import url("//fonts.googleapis.com/css?family=Roboto:400italic,700italic,400,300,500,700");
 body {
   position: relative; /* For scrollyspy */
   padding-top: 45px;  /*Account for fixed navbar */
   height: 100%;
   width: 100%;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Roboto","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400
 }
 html {
   width: 100%;
@@ -105,7 +107,7 @@ h1[id].panel-title,h2[id].panel-title,h3[id].panel-title,h4[id].panel-title{
   margin-top: 0;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Roboto", "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     line-height: 1.1;
     color: inherit;
@@ -146,7 +148,7 @@ a.bg-danger:hover{background-color:#e4b9b9}
 .text-warning-50{color:#e9900280}
 .text-danger-50{color:#f0412480}
 .lead{
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #6f6f6f;
     font-size: 20px;
     margin-bottom: 21px;
@@ -238,7 +240,7 @@ a.bg-danger:hover{background-color:#e4b9b9}
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -942,7 +944,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto','Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -1189,20 +1191,21 @@ header .page-heading hr.thin {
     border-width: 2px;
 }
 header .page-heading h1, header .page-heading-portal h1{
-    font-family: 'Heebo', 'PT Sans Caption', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'PT Sans Caption', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 0;
     font-size: 50px;
 }
+/*Main Header Text*/
 header .page-heading .bold{
-    font-family: 'Heebo', 'PT Sans Caption', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 900;
-    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 3px 3px 5px #444;
+    font-family: 'Roboto', 'PT Sans Caption', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    /*text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 3px 3px 5px #444;*/
 }
 header .page-heading h1.thin{
     font-size: 70px;
 }
 header .page-heading .thin{
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     line-height: 1.1;
 }
@@ -1219,14 +1222,14 @@ header .page-heading .subheading {
     font-size: 16px;
     line-height: 1.1;
     display: block;
-    font-family: 'Heebo', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin: 2px 0 0;
 }
 header .page-heading .subheading-primary {
     font-size: 16px;
     display: block;
-    font-family: 'Heebo', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin: 2px 0 0;
 }
@@ -1237,7 +1240,7 @@ header .page-heading .subheading-secondary {
 header .page-heading .subheading-challenge-primary {
     font-size: 16px;
     display: block;
-    font-family: 'Heebo', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-style: italic;
     margin: 2px 0 0;
@@ -1246,7 +1249,7 @@ header .page-heading .subheading-challenge-primary {
 header .page-heading .subheading-challenge-secondary {
     font-size: 24px;
     display: block;
-    font-family: 'Heebo', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin: 2px 0 0;
 }
